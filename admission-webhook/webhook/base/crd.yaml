@@ -35,6 +35,16 @@ spec:
               type: array
             selector:
               type: object
+            nodeSelector:
+              type: object
+            tolerations:
+              items:
+                type: object
+              type: array
+            hostAliases:
+              items:
+                type: object
+              type: array
             volumeMounts:
               items:
                 type: object
